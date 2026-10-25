@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tambourine.me</title>
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"><style>
+  .stars {
+    background-color: #000033;
+    background-image:
+      radial-gradient(1px 1px at 20px 30px, #fff, transparent),
+      radial-gradient(1px 1px at 90px 70px, #ffff99, transparent),
+      radial-gradient(2px 2px at 140px 20px, #fff, transparent),
+      radial-gradient(1px 1px at 60px 120px, #99ccff, transparent),
+      radial-gradient(1px 1px at 170px 150px, #fff, transparent);
+    background-size: 200px 200px;
+  }
+  @keyframes blink { to { visibility: hidden; } }
+</style>
+</head>
+<body class="stars grid min-h-screen place-items-center text-center font-['Comic_Sans_MS','Comic_Sans','Chalkboard_SE',cursive] text-yellow-300">
+  <main class="p-4">
+    <h1 aria-label="Tambourine.me"
+        class="font-['Times_New_Roman',Times,serif] text-[clamp(2.5rem,12vw,6rem)] font-bold tracking-wide [text-shadow:4px_4px_0_#000] break-words">
+      <span class="text-red-500">T</span><span class="text-orange-400">a</span><span class="text-yellow-300">m</span><span class="text-lime-400">b</span><span class="text-cyan-300">o</span><span class="text-indigo-400">u</span><span class="text-fuchsia-500">r</span><span class="text-red-500">i</span><span class="text-orange-400">n</span><span class="text-yellow-300">e</span><span class="text-lime-400">.</span><span class="text-cyan-300">m</span><span class="text-indigo-400">e</span>
+    </h1>
+    <hr class="mx-auto my-6 w-[min(80vw,28rem)] border-0 border-t-4 border-double border-gray-300">
+    <p class="my-2 text-lg">Welcome to my homepage!</p>
+
+<div class="my-4 flex items-center justify-center gap-6 text-sm">
+   <a href="./profile/index.htm"
+     class="inline-flex items-center gap-2 text-purple-300 hover:text-white"
+     >
+    <i class="fa-solid fa-person text-xl" aria-hidden="true"></i>
+    プロフィール
+  </a>
+
+  <a href="https://github.com/tambara"
+     class="inline-flex items-center gap-2 text-cyan-300 hover:text-white"
+     target="_blank"
+     rel="noopener noreferrer">
+    <i class="fa-brands fa-github text-xl" aria-hidden="true"></i>
+    GitHub
+  </a>
+
+  <a href="mailto:yasu@tambourine.me"
+     class="inline-flex items-center gap-2 text-green-300 hover:text-white">
+    <i class="fa-solid fa-envelope text-xl" aria-hidden="true"></i>
+    Email
+  </a>
+</div>
+    <p class="my-2 text-xl text-gray-300  my-2 text-lg animate-[blink_1s_steps(2,start)_infinite] motion-reduce:animate-none">相互リンク募集中！</p>
+    <p class="my-2 text-sm text-gray-300">Sorry, This site is Japanese only!</p>
+  </main>
+</body>
+</html>
