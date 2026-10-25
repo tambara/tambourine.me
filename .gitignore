@@ -1,6 +1,3 @@
-```gitignore
-# Wrangler local account information
-wrangler-account.json
 
 # Environment variables and secrets
 .env
